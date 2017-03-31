@@ -1,0 +1,395 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<link href="../css/tab.css" rel="stylesheet" type="text/css">
+	<title>订单修改</title>
+</head>
+<body>
+	<!--头部-->
+	<div class="top-style" bgcolor="#1E82B5">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1E82B5">
+			<tr>
+				<td height="70" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<div><img src="../images/logo.png"></div>
+				  </table></td>
+			</tr>
+			  <tr>
+				<td height="14" background="../images/main_36.gif"><table width="177" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td width="12.8%" height="14" background="../images/main_32.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td width="20%"  height="22">&nbsp;</td>
+						<td width="59%" valign="bottom"><div align="center"><font color="#fff" size="2">当前用户：</div></td>
+						<td width="21%">&nbsp;</td>
+					  </tr>
+					</table></td>
+				  </tr>
+				</table></td>
+			  </tr>
+		</table>
+	</div>
+	
+	<!--中部-->
+	<div class="center-style">
+<!--左部-->
+<style type="text/css">
+.left-font1 {
+	font-size: 27px;
+	color: #FFFFFF;
+	font-family: "隶书";
+}
+.left-font2 {
+	font-size: 15px;
+	color:#FFFFFF;
+	font-family: "隶书";
+}
+</style>
+<script>
+var he=document.body.clientHeight-105
+</script>
+		<div class="left-style" width="165" height="100%">
+			<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#1E82B5">
+			  <tr>
+				<td height="28" background="../images/main_40.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0" >
+				  <tr>
+					<td width="19%">&nbsp;</td>
+					<td width="81%" height="18"><span class="left-font1"><font size="5">管理菜单</font></span></td>
+				  </tr>
+				</table></td>
+			  </tr>
+			  <tr>
+				<td valign="top"><table width="151" border="0" align="center" cellpadding="0" cellspacing="0">
+				  <tr>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td height="50" id="imgmenu1" class="menu_title" onMouseOver="this.className='menu_title2';" onClick="showsubmenu(1)" onMouseOut="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+						  <tr>
+							<td width="18%">&nbsp;</td>
+							<td width="82%" class="left-font1">商品管理</td>
+						  </tr>
+						</table></td>
+					  </tr>
+					  <tr>
+						<td bgcolor="#1E82B5" id="submenu1" style="DISPLAY: none">
+						 <div class="sec_menu" >  
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1E82B5">
+						  <tr>
+							<td><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+							  <tr>
+								<td height="23"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+								<td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+									  <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+									  <span class="left-font2"><a href="../index.html" >商品列表</a></span>
+									  </td>
+									</tr>
+								</table></td>
+							  </tr>
+							  <tr>
+								<td height="23"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+								<td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+									  <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+									  <span class="left-font2"><a href="add_goods.html" >上架商品</a></span>
+									  </td>
+									</tr>
+								</table></td>
+							  </tr>
+							</table></td>
+						  </tr>
+						</table></div></td>
+					  </tr>
+					  
+					</table></td>
+				  </tr>
+				  <tr>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td height="50" id="imgmenu2" class="menu_title" onMouseOver="this.className='menu_title2';" onClick="showsubmenu(2)" onMouseOut="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+						  <tr>
+							<td width="18%">&nbsp;</td>
+							<td width="82%" class="left-font1">分类管理</td>
+						  </tr>
+						</table></td>
+					  </tr>
+					  <tr>
+						<td bgcolor="#1E82B5" id="submenu2" style="DISPLAY: none">
+						 <div class="sec_menu" >  
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						  <tr>
+							<td><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+							  <tr>
+								<td height="23"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+								<td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+									  <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+									  <span class="left-font2"><a href="SortManage.html" >分类列表</a></span></td>
+									</tr>
+								</table></td>
+							  </tr>
+							  <tr>
+								<td height="23"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+								<td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+									  <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+									  <span class="left-font2"><a href="EnterSort.html" >添加分类</a></span></td>
+									</tr>
+								</table></td>
+							  </tr>
+							  
+							</table></td>
+						  </tr>
+						</table></div></td>
+					  </tr>
+					</table></td>
+				  </tr>
+				  <tr>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td height="50" id="imgmenu3" class="menu_title" onmouseover="this.className='menu_title2';" onclick="showsubmenu(3)" onmouseout="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="18%">&nbsp;</td>
+							  <td width="82%" class="left-font1">订单管理</td>
+							</tr>
+						</table></td>
+					  </tr>
+					  <tr>
+						<td bgcolor="#1E82B5" id="submenu3" style="DISPLAY: none"><div class="sec_menu" >
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1E82B5">
+							  <tr>
+								<td><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+									<tr>
+									  <td width="16%" height="25"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+									  <td width="84%" height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+										  <tr>
+											<td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+											<span class="left-font2"><a href="OrderManage.html" >浏览订单</a></span></td>
+										  </tr>
+									  </table></td>
+									</tr>
+								</table></td>
+							  </tr>
+							</table>
+						</div></td>
+					  </tr>
+					</table></td>
+				  </tr>
+				  <tr>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td height="50" id="imgmenu4" class="menu_title" onmouseover="this.className='menu_title2';" onclick="showsubmenu(4)" onmouseout="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="18%">&nbsp;</td>
+							  <td width="82%" class="left-font1">系统设置</td>
+							</tr>
+						</table></td>
+					  </tr>
+					  <tr>
+						<td bgcolor="#1E82B5" id="submenu4" style="DISPLAY: none"><div class="sec_menu" >
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1E82B5">
+							  <tr>
+								<td><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+									<tr>
+									  <td width="16%" height="25"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+									  <td width="84%" height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+										  <tr>
+											<td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+											<span class="left-font2"><a href="ChangePassword.html" >修改密码</a></span></td>
+										  </tr>
+									  </table></td>
+									</tr>
+									<tr>
+									  <td height="23"><div align="center"><img src="../images/left.gif" width="10" height="10" /></div></td>
+									  <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+										  <tr>
+											<td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+											<span class="left-font2"><a href="../login.html" >注销</a></span></td>
+										  </tr>
+									  </table></td>
+									</tr>
+								</table></td>
+							  </tr>
+							</table>
+						</div></td>
+					  </tr>
+					</table></td>
+				  </tr>
+				 
+				  
+				</table></td>
+			  </tr>
+			  <tr>
+				<td height="18" background="../images/main_58.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td height="18" valign="bottom"><div align="center" class="left-font2">突击小部队</div></td>
+				  </tr>
+				</table></td>
+			  </tr>
+			</table>
+<script>
+function showsubmenu(sid)
+{
+whichEl = eval("submenu" + sid);
+imgmenu = eval("imgmenu" + sid);
+if (whichEl.style.display == "none")
+{
+eval("submenu" + sid + ".style.display=\"\";");
+}
+else
+{
+eval("submenu" + sid + ".style.display=\"none\";");
+}
+}
+</script>			
+		</div>
+		
+		<!--右部-->
+		<div class="right-style">
+<script>
+var  highlightcolor='#c1ebff';
+//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
+var  clickcolor='#51b2f6';
+function  changeto(){
+source=event.srcElement;
+if  (source.tagName=="TR"||source.tagName=="TABLE")
+return;
+while(source.tagName!="TD")
+source=source.parentElement;
+source=source.parentElement;
+cs  =  source.children;
+//alert(cs.length);
+if  (cs[1].style.backgroundColor!=highlightcolor&&source.id!="nc"&&cs[1].style.backgroundColor!=clickcolor)
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor=highlightcolor;
+}
+}
+
+function  changeback(){
+if  (event.fromElement.contains(event.toElement)||source.contains(event.toElement)||source.id=="nc")
+return
+if  (event.toElement!=source&&cs[1].style.backgroundColor!=clickcolor)
+//source.style.backgroundColor=originalcolor
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor="";
+}
+}
+
+function  clickto(){
+source=event.srcElement;
+if  (source.tagName=="TR"||source.tagName=="TABLE")
+return;
+while(source.tagName!="TD")
+source=source.parentElement;
+source=source.parentElement;
+cs  =  source.children;
+//alert(cs.length);
+if  (cs[1].style.backgroundColor!=clickcolor&&source.id!="nc")
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor=clickcolor;
+}
+else
+for(i=0;i<cs.length;i++){
+	cs[i].style.backgroundColor="";
+}
+}
+</script>
+<style type="text/css">
+.right-font1 {font-size: 12px}
+.right-font2 {font-size: 12px; font-weight: bold; }
+.right-font3 {
+	color: #03515d;
+	font-size: 12px;
+}
+</style>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td height="30" background="images/tab_05.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				</table></td>
+			  </tr>
+			  <tr>
+				<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td width="8" background="images/tab_12.gif">&nbsp;</td>
+					<td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="b5d6e6" onMouseOver="changeto()"  onmouseout="changeback()">
+					  <tr>
+						<td width="3%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center">
+						  <input type="checkbox" name="checkbox" value="checkbox" />
+						</div></td>
+						<td width="10%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">序号</span></div></td>
+						<td width="12%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">名称</span></div></td>
+						<td width="12%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">单价</span></div></td>
+						<td width="12%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">折扣</span></div></td>
+						<td width="12%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">库存量</span></div></td>
+						<td width="6%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">上架时间</span></div></td>
+						<td width="7%" height="22" background="images/bg.gif" bgcolor="#FFFFFF"><div align="center"><span class="right-font1">商品图片</span></div></td>
+						<td width="15%" height="22" background="images/bg.gif" bgcolor="#FFFFFF" class="right-font1"><div align="center">管理</div></td>
+					  </tr>
+					  <tr>
+						<td height="20" bgcolor="#FFFFFF"><div align="center">
+						  <input type="checkbox" name="checkbox2" value="checkbox" />
+						</div></td>
+						<!--<td height="20" bgcolor="#FFFFFF" contenteditable"true"><div align="center" class="right-font1">
+						  <div align="center">${r.oid}1</div>
+						</div></td>-->
+                        <td height="20" bgcolor="#FFFFFF" contenteditable="true"><div align="center"><span class="right-font1">${r.GID</span></div></td>
+						<td height="20" bgcolor="#FFFFFF" contenteditable="true"><div align="center"><span class="right-font1">${r.GNAME}</span></div></td>
+						<td height="20" bgcolor="#FFFFFF" contenteditable="true"><div align="center"><span class="right-font1">{r.PRICE}</span></div></td>
+						<td height="20" bgcolor="#FFFFFF" contenteditable="true><div align="center"><span class="right-font1">${r.OFFSET}</span></div></td>
+						<td height="20" bgcolor="#FFFFFF" contenteditable="true"><div align="center"><span class="right-font1">${r.STORAGE}</span></div></td>
+						<td height="20" bgcolor="#FFFFFF" contenteditable="true"><div align="center"><span class="right-font1">${r.GTIME}</span></div></td>
+						<td height="20" bgcolor="#FFFFFF" contenteditable="true"><div align="center"><span class="right-font1">${r.IMGID}</span></div></td>
+						<td height="20" bgcolor="#FFFFFF"><div align="center">
+							<span class="right-font3">
+							
+							<a href="#">确认</a>
+							</span></div>
+						</td>
+					  </tr>
+					</table></td>
+					<td width="8" background="images/tab_15.gif">&nbsp;</td>
+				  </tr>
+				</table></td>
+			  </tr>
+			  <tr>
+				<td height="35" background="images/tab_19.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td width="12" height="35"><img src="images/tab_18.gif" width="12" height="35" /></td>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <!--<tr>
+						<td class="STYLE4">&nbsp;&nbsp;共有 x 条记录，当前第 1/x 页</td>
+						
+						<td><table border="0" align="right" cellpadding="0" cellspacing="0">
+							<tr>
+							  <td width="40"><img src="images/first.gif" width="37" height="15" /></td>
+							  <td width="45"><img src="images/back.gif" width="43" height="15" /></td>
+							  <td width="45"><img src="images/next.gif" width="43" height="15" /></td>
+							  <td width="40"><img src="images/last.gif" width="37" height="15" /></td>
+							  <td width="100"><div align="center"><span class="STYLE1">转到第
+								<input name="textfield" type="text" size="4" style="height:12px; width:20px; border:1px solid #999999;" /> 
+								页 </span></div></td>
+							  <td width="40"><img src="images/go.gif" width="37" height="15" /></td>
+							</tr>
+						</table></td>
+					  </tr>-->
+					</table></td>
+					<td width="16"><img src="images/tab_20.gif" width="16" height="35" /></td>
+				  </tr>
+				</table></td>
+			  </tr>
+			</table>
+		</div>
+
+<!--底部-->
+	<div class="down-style">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td width="6" background="../images/main_59.gif" style="line-height:6px;"><img src="../images/main_59.gif" width="6" height="6" ></td>
+			<td background="../images/main_61.gif" style="line-height:6px;">&nbsp;</td>
+			<td width="6" background="../images/main_61.gif" style="line-height:6px;"><img src="../images/main_62.gif" width="6" height="6" ></td>
+		  </tr>
+		</table>
+	</div>
+	
+</body>
+</html>

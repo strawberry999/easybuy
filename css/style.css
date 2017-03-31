@@ -1,0 +1,66 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.top-style{
+	height:15.5%;
+	padding:0;
+}
+.center-style{
+	padding:0;
+	position:relative;
+	height:80%;
+}
+
+/*left-style*/
+.left-style{
+	position:relative;
+	margin:0 0;
+	padding:0 0;
+	width:12%;
+	float:left;
+	height:100%;
+}
+.left-style a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+ color: #ffffff;
+}
+.left-style a:hover{
+ text-decoration:underline;  /*鼠标放上去有下划线*/
+}
+.menu_title{
+	background-color: #1E82B5;
+}
+.menu_title SPAN {
+	FONT-WEIGHT: bold; LEFT: 3px; COLOR: #ffffff; POSITION: relative; TOP: 2px 
+}
+.menu_title2 SPAN {
+	FONT-WEIGHT: bold; LEFT: 3px; COLOR: #FFCC00; POSITION: relative; TOP: 2px
+}
+
+
+
+/*right-style*/
+.right-style{
+	position:relative;
+	width:88%;
+	float:right;
+	height:100%;
+	background-color:#E5F1F9;
+}
+.right-style a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+}
+.right-style a:hover{
+ text-decoration:underline;  /*鼠标放上去有下划线*/
+}
+
+
+.down-style{
+	position:relative;
+	width: 100%;
+	height: 6px;
+	margin-bottom:0;
+}
